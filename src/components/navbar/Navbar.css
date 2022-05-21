@@ -1,3 +1,21 @@
+.navbar-brand{
+    font-size: 1.8rem;
+}
+.navbar-brand > img{
+    width: 40px;
+}
 .nav-link{
-    color: white !important;
+    color: white;
+    transition-duration: 0.3s;
+    min-height: 100% !important;
+    padding: 17px 20px !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.nav-link:focus{
+    color: white;
 }
