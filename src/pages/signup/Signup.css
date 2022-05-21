@@ -1,0 +1,6 @@
+.signupHeader > div:first-child{
+    font-size: 1.8rem;
+}
+.signupHeader > div:last-child{
+    font-size: 16px;
+}
