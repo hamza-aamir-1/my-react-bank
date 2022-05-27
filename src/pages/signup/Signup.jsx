@@ -5,7 +5,7 @@ const Signup = () => {
   return (
     <div className='container my-4'>
 
-        <div className='bg-primary bg-gradient text-center text-white p-2 signupHeader'>
+        <div className='bg-primary bg-gradient text-center text-white p-2 pt-3 signupHeader'>
             <div>
                 Enter Account Details Below
             </div>
@@ -13,7 +13,11 @@ const Signup = () => {
                 (All fields are required)
             </div>
         </div>
-        
+
+        <div>
+            
+        </div>
+
     </div>
   )
 }
