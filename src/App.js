@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './pages/layout';
 import Home from './pages/home';
 import Signup from './pages/signup/Signup';
+import Account from './pages/account/Account';
+import Transaction from './pages/transaction/Transaction';
 
 function App() {
   return (
@@ -10,10 +12,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />}/>
-          {/* <Route path='/signup' element={<Signup />}/> */}
-        </Route>
-        <Route path='/' element={<Layout />}>
           <Route path='/signup' element={<Signup />}/>
+          <Route path='/account' element={<Account />}/>
+          <Route path='/transaction' element={<Transaction />}/>
         </Route>
       </Routes>
     </BrowserRouter>
